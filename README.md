@@ -44,15 +44,15 @@ This requires creating a account with OpenWeather and generating an API key.  Th
     ```
  4. Backup Current sensor worker (assumes default Mudpi Install location)
     ```shell
-    mv /etc/mudpi/core/worker/pi/sensor_worker.py /etc/mudpi/core/worker/pi/sensor_worker.bk
+    sudo mv /etc/mudpi/core/workers/pi/sensor_worker.py /etc/mudpi/core/workers/pi/sensor_worker.bk
     ```
 
 5. Copy new sensor files to mudpi (assumes default Mudpi Install location)
     ```shell
-    cp ~/Downloads/precipitation_sensor.py /etc/mudpi/core/sensors/pi/
+    sudo cp ~/Downloads/precipitation_sensor.py /etc/mudpi/core/sensors/pi/
     ```
     ```shell
-    cp ~/Downloads/sensor_worker.py /etc/mudpi/core/workers/pi
+    sudo cp ~/Downloads/sensor_worker.py /etc/mudpi/core/workers/pi
     ```
 6. Update mudpi.config 
 7. Restart mudpi  (see example)
