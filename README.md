@@ -30,7 +30,7 @@ This requires creating a account with OpenWeather and generating an API key.  Th
 ## Install
 1. Install on top of [Mudpi-Core v0.9.1](https://github.com/mudpi/mudpi-core)
 2. The installation requires only 2 changes.  
-    1. updating the (mudpi/core/workers/pi/sensor_worker.py) sensor worker 
+    1. Updating the (mudpi/core/workers/pi/sensor_worker.py) sensor worker 
     2. Defining a new (mudpi/core/sensors/pi/precipitation_sensor.py) sensor
 3. Download the new sensor file and update to the pi worker script  
     ```shell
